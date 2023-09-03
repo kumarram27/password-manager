@@ -1,4 +1,4 @@
-# password-manager
+# To Built a Password-Manager
 A password manager is a tool that helps users securely store and manage their passwords for various online accounts. Some key features of a password manager might include:
 
 Secure storage: Password managers typically use strong encryption to protect the user's password data.
