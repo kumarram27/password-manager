@@ -67,19 +67,37 @@ h1 {
     color: var(--half-white);
 } */
 
+.copy_password {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+}
+.copy_text {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #8577C0;
+    text-transform: uppercase;
+    
+}
 .copy_btn {
+    outline: none;
+    border: none;
+    display: flex;
+    background: none;
     width: 35px;
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 0;
 }
-
 .copy_icon {
-    fill: var(--svg-default-color);
-    transition: fill 0.3s ease;
+    width: 35px;
+    height: 35px;
+    fill: var(--light-gray);
+    transition: all 0.3s ease;
 }
-
 .copy_btn:hover .copy_icon {
-    fill: var(--svg-hover-color) !important;
+    filter: contrast(3.5);
 }
