@@ -9,8 +9,6 @@
     --dark-orange: #f64a4a;
     --light-orange: #fb7c58;
     --light-yellow: #f8cd65;
-    --svg-default-color: #817d92; 
-    --svg-hover-color: #e6e5ea; 
 }
 
 * {
@@ -62,22 +60,22 @@ h1 {
     color: var(--half-white);
 }
 
-/* .password_placeholder {
+.p {
     font-size: 3.2rem;
     color: var(--half-white);
-} */
+}
 
 .copy_password {
     display: flex;
     align-items: center;
-    gap: 1.6rem;
+    gap: 1.5rem;
 
 }
 .copy_text {
     display: flex;
     align-items: center;
-    font-size: 22px;
-    color: #8577C0;
+    font-size: 20px;
+    color: #a4ffaf;
     text-transform: uppercase;
     
 }
@@ -86,18 +84,52 @@ h1 {
     border: none;
     display: flex;
     background: none;
-    width: 35px;
+    width: 30px;
     background-color: transparent;
     border: none;
     cursor: pointer;
     padding: 0;
 }
 .copy_icon {
-    width: 35px;
-    height: 35px;
-    fill: var(--light-gray);
+    width: 30px;
+    height: 30px;
     transition: all 0.3s ease;
 }
 .copy_btn:hover .copy_icon {
     filter: contrast(3.5);
+}
+
+
+.password_setting {
+    padding: 2.4rem 3.2rem 3.2rem;
+    background-color: var(--dark-gray);
+}
+
+.char_length {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.4rem;
+    font-size: 20px;
+    color: var(--light-gray)
+}
+
+.char_count {
+    font-size: 3.2rem;
+    color: var(--green);
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    margin-right: 15px;
+    height: 7px;
+    margin-bottom: 3.6rem;
+    background-size: 50% ,100% ;
+    background-image: linear-gradient(var(--green),var(--green));
+    background-color: var(--dark-black);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
 }
